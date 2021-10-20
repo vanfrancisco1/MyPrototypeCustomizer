@@ -1,2 +1,2 @@
 # MyPrototypeCustomizer
-Sample Customization
+JUST A CUSTOMIZER OF A CHARACTER.
