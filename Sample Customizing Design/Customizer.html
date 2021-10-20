@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Customizer by Van</title>
+        <style>
+            .container
+            {
+                position: relative;
+                height: 1200px;
+                width: 1200px;
+                border-style: dotted;
+            }
+            #Base
+            {
+                position:absolute;
+                content: url("Guoba/Standard_Guoba.png");
+                width: 1000px;
+                height: 1000px;
+                align-content: center;
+                z-index: 0;
+            }
+            #Neckties
+            {
+                position:absolute;
+                content: url("Guoba/Bowtie.png");
+                width: 1000px;
+                height: 1000px;
+                align-content: center;
+                z-index: 1;
+            }
+            #Eyes
+            {
+                position:absolute;
+                content: url("Guoba/Standard_GuobaEyes.png");
+                width: 1000px;
+                height: 1000px;
+                align-content: center;
+                z-index: 1;
+            }
+            #Hands
+            {
+                position:absolute;
+                content: url("guoba/Standard_Handgloves.png");
+                width: 1000px;
+                height: 1000px;
+                align-content: center;
+                z-index: 1;
+            }
+            #Boots
+            {
+                position:absolute;
+                content: url("guoba/Standard_Boots.png");
+                width: 1000px;
+                height: 1000px;
+                align-content: center;
+                z-index: 1;
+            }
+        </style>
+
+    </head>
+    <body>
+        <center>
+        <h1>ANG PROTOTYPE CUSTOMIZER-KUNO NG MLLF</h1>
+        </center>
+        <div class="container">
+            <div id="Boots"></div>
+            <div id="Hands"></div>
+            <div id="Eyes"></div>
+            <div id="Neckties"></div>
+            <div id="Base"></div>
+        </div>
+        <div>
+            <h1>Skin Color: </h1>
+            <button type="button" onclick="Standard_Guoba()">Standard Guoba</button>
+            <button type="button" onclick="Ghetto_Guoba()">Ghetto Guoba</button>
+            <h1>Accesories: </h1>
+            <button type="button" onclick="Bowtie()">Bowtie</button>
+            <button type="button" onclick="Necktie()">Necktie</button><br>
+            <h1>Eyes: </h1>
+            <button type="button" onclick="Standard_GuobaEyes()">Standard Eyes</button>
+            <button type="button" onclick="Edgy_GuobaEyes()">Edgy Eyes</button>
+            <button type="button" onclick="Happy_GuobaEyes()">Happy Eyes</button>
+            <button type="button" onclick="Startled_GuobaEyes()">Startled Eyes</button>
+            <h1>Handgloves</h1>
+            <button type="button" onclick="Standard_Handgloves()">Standard Handgloves</button>
+            <button type="button" onclick="Circle_Handgloves()">Circle Handgloves</button>
+            <h1>Boots</h1>
+            <button type="button" onclick="Standard_Boots()">Standard Boots</button>
+            <button type="button" onclick="CLines_Boots()">Chinese Lines Boots</button>
+            <button type="button" onclick="Cloud_Boots()">Cloud Boots</button>
+        </div>
+        <script>
+            function Standard_Guoba()
+            {
+                var dira = "url('Guoba/Standard_Guoba.png')";
+                document.getElementById('Base').style.content = dira;
+            }
+            function Ghetto_Guoba()
+            {
+                var dira = "url('Guoba/Ghetto_Guoba.png')";
+                document.getElementById('Base').style.content = dira;
+            }
+            function Bowtie()
+            {
+                var dira = "url('Guoba/Bowtie.png')";
+                document.getElementById('Neckties').style.content = dira;
+            }
+            function Necktie()
+            {
+                var dira = "url('Guoba/Necktie.png')";
+                document.getElementById('Neckties').style.content = dira;
+            }
+            function Standard_GuobaEyes()
+            {
+                var dira = "url('Guoba/Standard_GuobaEyes.png')";
+                document.getElementById('Eyes').style.content = dira;
+            }
+            function Edgy_GuobaEyes()
+            {
+                var dira = "url('Guoba/Edgy_GuobaEyes.png')";
+                document.getElementById('Eyes').style.content = dira;
+            }
+            function Happy_GuobaEyes()
+            {
+                var dira = "url('Guoba/Happy_GuobaEyes.png')";
+                document.getElementById('Eyes').style.content = dira;
+            }
+            function Standard_Handgloves()
+            {
+                var dira = "url('Guoba/Standard_Handgloves.png')";
+                document.getElementById('Hands').style.content = dira;
+            }
+            function Circle_Handgloves()
+            {
+                var dira = "url('Guoba/Circle_Handgloves.png')";
+                document.getElementById('Hands').style.content = dira;
+            }
+            function Startled_GuobaEyes()
+            {
+                var dira = "url('Guoba/Startled_GuobaEyes.png')";
+                document.getElementById('Eyes').style.content = dira;
+            }
+            function Standard_Boots()
+            {
+                var dira = "url('Guoba/Standard_Boots.png')";
+                document.getElementById('Boots').style.content = dira;
+            }
+            function CLines_Boots()
+            {
+                var dira = "url('Guoba/CLines_Boots.png')";
+                document.getElementById('Boots').style.content = dira;
+            }
+            function Cloud_Boots()
+            {
+                var dira = "url('Guoba/Cloud_Boots.png')";
+                document.getElementById('Boots').style.content = dira;
+            }
+        </script>
+    </body>
+</html>
